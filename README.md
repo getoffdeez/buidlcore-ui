@@ -18,8 +18,6 @@ This repository is currently in its initial development phase. As an open-source
 
 ## Contributing
 
-## Contributing
-
 While this project is primarily a personal endeavor, feedback and suggestions are highly welcomed. If you have ideas on how to improve the design kit or wish to report any issues, please feel free to open an issue or submit suggestions through the issues tracker on GitHub. You can also reach me on Warpcast @getoffdeez.eth
 
 ## Planned Updates

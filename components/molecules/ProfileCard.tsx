@@ -2,6 +2,7 @@ import Image from 'next/image';
 import SocialIcon from '../atoms/SocialIcon';
 import Button from '../atoms/Button';
 
+import { CSSProperties } from "react";
 
 const ProfileCard: React.FC<ProfileCardProps> = ({
   avatar,

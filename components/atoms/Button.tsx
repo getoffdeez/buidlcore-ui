@@ -7,7 +7,6 @@ const Button: React.FC<ButtonProps> = ({
   disabled = false,
   isLoading = false,
   onClick,
-  style = {},
 }) => {
   const baseClasses = "focus:outline-none rounded text-white font-bold focus:ring-2 focus:ring-opacity-50";
   const sizeClasses = {
@@ -28,7 +27,6 @@ const Button: React.FC<ButtonProps> = ({
       className={classes}
       disabled={disabled || isLoading}
       onClick={onClick}
-      style={style}
     >
       {isLoading ? 'Loading...' : children}
 

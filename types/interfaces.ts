@@ -9,7 +9,6 @@ interface ButtonProps {
     disabled?: boolean;
     isLoading?: boolean;
     onClick?: () => void;
-    style?: CSSProperties;
 }
 
 // SocialIcon.tsx

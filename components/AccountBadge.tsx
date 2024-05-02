@@ -15,8 +15,8 @@ const AccountBadge: React.FC<AccountBadgeProps> = ({
             <Image src={avatar} alt="User Avatar" width={56} height={56} className="rounded-full" />
         <div>
             <h3 className="font-bold text-white text-lg">{name}</h3>
-        <div className="flex items-center">
-            <Image src={socialLogo} alt="Social Logo" width={24} height={24} />
+        <div className="flex items-center gap-2">
+            <Image src={socialLogo} alt="Social Logo" width={18} height={18} />
             <span className='text-neutral-100 text-md'>{socialUsername}</span>
         </div>
       </div>

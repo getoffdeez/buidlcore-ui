@@ -16,6 +16,7 @@ interface ButtonProps {
 interface SocialIconProps {
     iconPath: string;
     link: string;
+    
   }
 
   // AccountBadge.tsx
@@ -40,6 +41,20 @@ interface AccountBadgeProps {
   // ProfileCard.tsx
 
   interface ProfileCardProps {
+    avatar: string;
+    buttonLabel: string;
+    onButtonClick: () => void;
+    socialIcons: {
+      iconPath: string;
+      link: string;
+    }[];
+    name: string;
+    bio: string;
+  }
+
+  // ProfileCardVerticle.tsx
+
+  interface ProfileCardVerticleProps {
     avatar: string;
     buttonLabel: string;
     onButtonClick: () => void;
